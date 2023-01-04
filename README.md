@@ -6,7 +6,7 @@ Continuous integration integrates code into the trunk frequently.
 Each integration is verified through automated construction (including compilation, release, and automated testing) so that integration errors can be found as soon as possible.
 + **Benefits**:
 Quickly find errors. Every time a bit update is completed, it will be integrated into the backbone. Errors can be found quickly, and it is easier to locate errors
-Prevent the branch from greatly deviating from the trunk. 
+Prevent the branch from greatly deviating from the trunk.
 + **Purpose**:
 Allows products to iterate quickly while maintaining high quality. Its core measure is that the code must pass automated tests before it is integrated into the backbone. If a single test case fails, it cannot be integrated. Continuous integration does not eliminate bugs but makes them very easy to find and correct.
 ### CD
