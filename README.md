@@ -20,3 +20,6 @@ GitHub runs  CI tests and provides the results of each test in the pull request,
 [Reference Link](https://docs.github.com/en/actions/automating-builds-and-tests/about-continuous-integration).
 
 **My CI/CD example**:[My continuous integration and continuous delivery example](https://github.com/daisyqin123/continuous-integration-and-continuous-delivery-).
++ **Other tools**:
+Other tools like Jenkins and Azure devops.For Jenkins,it helps us compile and package the code in a unified way, and it can also be released in the tomcat container.
+Through configuration, we hand over the previous process of compiling, packaging, uploading, and deploying to Tomcat to Jenkins. Jenkins pulls the code to its "host server" through the given code address URL, compiles, packages, and publishes it to in the Tomcat container.
