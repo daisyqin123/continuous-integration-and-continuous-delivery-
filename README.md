@@ -10,8 +10,6 @@ Prevent the branch from greatly deviating from the trunk.
 + **Purpose**:
 Allows products to iterate quickly while maintaining high quality. Its core measure is that the code must pass automated tests before it is integrated into the backbone. If a single test case fails, it cannot be integrated. Continuous integration does not eliminate bugs but makes them very easy to find and correct.
 ### CD
-The full name of CD is Continuous delivery. Continuous delivery is to frequently deliver new versions of the software to the quality team or users for review. If the review passes, the code goes into production.Continuous delivery can be seen as the next step of continuous integration. It emphasizes that no matter how it is updated, software can be delivered anytime, anywhere.
-
 ## Tools
 + **GitHub Action**:
 GitHub runs  CI tests and provides the results of each test in the pull request, so developer can see whether the change in your branch introduces an error. When all CI tests in a workflow pass, the changes developers pushed are ready to be reviewed by a team member or merged. When a test fails, one of changes may have caused the failure.Using this tool, developers can build, deploy, and update software projects on GitHub or external systems without running the code themselves. Actions adds customizable workflow capabilities to GitHub.com so developers can build and share code Containers to run software development workflows, even across multiple clouds.
